@@ -30,7 +30,6 @@ class _LoadingState extends State<Loading> {
     return const Scaffold(
       body: Column(
 children: <Widget>[
-alert,
 Text('Loading'),
 ],
       ),
