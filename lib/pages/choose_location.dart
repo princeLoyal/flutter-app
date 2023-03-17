@@ -10,7 +10,7 @@ class ChooseLocation extends StatefulWidget {
 class _ChooseLocationState extends State<ChooseLocation> {
 
   void getDate() {
-    
+
   }
 
   @override
