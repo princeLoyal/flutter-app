@@ -24,7 +24,7 @@ class _LoadingState extends State<Loading> {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: Column(
 children: <Widget>[
 Text('Loading'),
