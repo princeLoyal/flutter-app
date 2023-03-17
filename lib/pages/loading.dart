@@ -15,8 +15,8 @@ class _LoadingState extends State<Loading> {
 
   // Await the http get response, then decode the json-formatted response.
   return AlertDialog(
-    title: 'Done successfully', 
-    content: 'Succesfully concluded'
+    title: Text('Done successfully'), 
+    content: Text('Succesfully concluded')
   );
    
   }
@@ -24,9 +24,9 @@ class _LoadingState extends State<Loading> {
   @override
   void initState() {
     super.initState();
-    final alert = getData();
   }
-
+  
+  AlertDialog alert = getData();
   
   @override
   Widget build(BuildContext context) {
