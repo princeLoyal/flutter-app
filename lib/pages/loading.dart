@@ -10,19 +10,16 @@ class Loading extends StatefulWidget {
 
 class _LoadingState extends State<Loading> {
 
-  getData() async {
+  void getData() async {
    Response response = await get('http://worldtimeapi.org/api/timezone/Africa/Lagos');
    Map data = jsonDecode(response.body);
-   return AlertDialog(
-    title: Text('Succesfully received'),
-    content: Text('Api get recieved successfully')
-   );
+   
   }
 
   @override
   void initState() {
     super.initState();
-    AlertDialog alert = getData();
+    
   }
 
   @override
