@@ -24,9 +24,10 @@ class _LoadingState extends State<Loading> {
   @override
   void initState() {
     super.initState();
+    AlertDialog alert = getData();
   }
   
-  AlertDialog alert = getData();
+  
   
   @override
   Widget build(BuildContext context) {
