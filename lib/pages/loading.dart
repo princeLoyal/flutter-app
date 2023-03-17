@@ -9,8 +9,8 @@ class Loading extends StatefulWidget {
 
 class _LoadingState extends State<Loading> {
 
-  void getData() {
-   
+  void getData() async{
+   Response response = await get('http://worldtimeapi.org/api/timezone/Africa/Lagos');
    
   }
 
