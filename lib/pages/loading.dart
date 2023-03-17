@@ -10,25 +10,30 @@ class Loading extends StatefulWidget {
 
 class _LoadingState extends State<Loading> {
 
-  void getData() async{
+  getData() async{
    var url = Uri.https('https://worldtimeapi.org/api/timezone/Africa/Lagos');
 
   // Await the http get response, then decode the json-formatted response.
-  
+  return AlertDialog(
+    title: 'Done successfully', 
+    content: 'Succesfully concluded'
+  );
    
   }
 
   @override
   void initState() {
     super.initState();
-    
+    final alert = getData();
   }
 
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
 children: <Widget>[
+alert, 
 Text('Loading'),
 ],
       ),
