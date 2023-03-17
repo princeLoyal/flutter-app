@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:convert' as convert;
-import 'package:http/http.dart' as http
+import 'package:http/http.dart' as http;
 
 class Loading extends StatefulWidget {
   
