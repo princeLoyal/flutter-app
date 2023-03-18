@@ -16,7 +16,6 @@ class _ChooseLocationState extends State<ChooseLocation> {
   @override
   void initState() {
     super.initState();
-    print('sdgfdgfs');
   }
 
   @override
